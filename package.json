@@ -1,15 +1,18 @@
 {
-  "name": "my-node-app",
+  "name": "whatsppbackend",
   "version": "1.0.0",
- "main": "src/server.js",
+  "description": "WhatsApp clone backend API using Node.js, Express, and MongoDB",
+  "main": "src/server.js",
   "scripts": {
-      "start": "node src/server.js",
+    "start": "node src/server.js",
     "dev": "nodemon src/server.js"
   },
-  "keywords": [],
-  "author": "",
+  "engines": {
+    "node": "20.x"
+  },
+  "keywords": ["nodejs", "express", "mongodb", "backend"],
+  "author": "Akshay Kumar",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
